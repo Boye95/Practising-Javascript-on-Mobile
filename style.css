@@ -4,11 +4,17 @@
   box-sizing: border-box;
 }
 
-#bot {
+#test-cart {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+.bot {
   display: flex;
   justify-content: center;
-  margin: 2rem;
+  /* margin: 1rem; */
   padding: 5px;
   color: whitesmoke;
   background: blue;
 }
+

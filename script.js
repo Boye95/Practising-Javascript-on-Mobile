@@ -1,3 +1,54 @@
+/* Code to move the button to the second div */
+
+(function () {
+  const buttons = document.querySelectorAll('.bot');
+  const div2 = document.querySelector('#copied-bot');
+  buttons.forEach((but) => {
+    but.addEventListener('click', () => {
+      
+      let d = div2.appendChild(but);
+      console.log(d.parentElement);
+    })
+  })
+  
+})();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*let myData = 'Manchester,London,Liverpool,Birmingham,Leeds,Carlisle';
 let myArray = myData.split(',');
 console.log(typeof(myArray));
@@ -332,12 +383,15 @@ console.log(myDiv);
 }
 */
 
+// Array and Loop practise
 
+/*
+  let element = [3, 6, 8, 9, 3, 5, 6];
+  let h = '';
+  for (var i = 0; i < element.length; i++) {
+    h += element[i];
+    let j = h.split(',');
+    console.log(j);
+  }
+*/
 
-let element = [3, 6, 8, 9, 3, 5, 6];
-let h = '';
-for (var i = 0; i < element.length; i++) {
-  h += element[i];
-  let j = h.split(',');
-  console.log(j);
-}
